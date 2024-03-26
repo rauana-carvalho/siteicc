@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cooper+Black&display=swap');
+
+body {
+ border-radius: 40px;
+ background-color: #EBDDCD80;
+ overflow: hidden;
+ margin-left: 90px;
+ margin-top: 70px;
+}
+
+.container1 {
+ display: flex;
+
+}
+
+.container_menu {
+ width: 373px;
+ height: 560px;
+ background-color: #E68D8D;
+ border-radius: 40px;
+ position: relative;
+ z-index: 1;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+}
+
+section .icone-menu svg {
+ width: 40px;
+ height: 35px;
+ margin-top: 23px;
+ margin-left: 60px;
+ margin-bottom: 40px;
+}
+
+.topico1, .topico2, .topico3, .topico4 {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 25px;
+ justify-content: center;
+ padding-top: 13px;
+}
+
+section .container_menu .topico1:nth-child(2) {
+ background-color: #FCE9E9;
+ width: 125px;
+ height: 74px;
+ top: 25px;
+ margin-left: 20px;
+ border-radius: 30px;
+ position: relative;
+ border: 1px solid #E4697A;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section .container_menu .topico1 svg {
+ width: 71.07px;
+ height: 48.54px;
+ margin: 12px 0px 16.5px 26px;
+ /* the margins apply to the top, right, bottom, and left in that order */
+}
+
+section .container_menu .topico2:nth-child(3) {
+ background-color: #FCE9E9;
+ width: 125px;
+ height: 74px;
+ top: 10px;
+ margin-left: 20px;
+ border-radius: 30px;
+ position: relative;
+ border: 1px solid #E4697A;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section .container_menu .topico2 svg {
+ width: 71.07px;
+ height: 48.54px;
+ margin: 12px 0px 16.5px 26px;
+ position: absolute;
+ /* the margins apply to the top, right, bottom, and left in that order */
+}
+
+section .container_menu .topico3:nth-child(4) {
+ background-color: #FCE9E9;
+ width: 125px;
+ height: 74px;
+ top: -5px;
+ margin-left: 20px;
+ border-radius: 30px;
+ position: relative;
+ border: 1px solid #E4697A;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section .container_menu .topico3 svg {
+ width: 71.07px;
+ height: 48.54px;
+ margin: 12px 0px 16.5px 26px;
+ position: absolute;
+ /* the margins apply to the top, right, bottom, and left in that order */
+}
+
+.container_menu .topico4:nth-child(5) {
+ background-color: #FCE9E9;  
+ position: relative;
+ width: 125px;
+ height: 74px;
+ top: -20px;
+ margin-left: 20px;
+ border-radius: 30px;
+ border: 1px solid #E4697A;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section .container_menu .topico4 svg {
+ width: 71.07px;
+ height: 48.54px;
+ margin: 12px 0px 16.5px 26px;
+ position: absolute;
+ /* the margins apply to the top, right, bottom, and left in that order */
+}
+
+.curiosidades-icon {
+ /* 🦆 icon "question mark circle" */
+position: absolute;
+width: 100%;
+height: 100%;
+left: 60px;
+top:500px;
+}
+
+.curiosidades-icon svg {
+width: 34px;
+height: 34px;
+}
+
+.retangulo2, .retangulo3 {
+ display: flex;
+ flex-direction: column;
+}
+
+.retangulo2 {
+ overflow-x: hidden;
+ overflow-y: scroll;
+ direction: rtl;
+}
+
+.retangulo2::-webkit-scrollbar {
+ width: 15px;               /* width of the entire scrollbar */
+ height: 400px;
+}
+
+.retangulo2::-webkit-scrollbar-track {
+ background: #FCE9E9;        /* color of the tracking area */
+ border-radius: 20px;
+}
+
+.retangulo2::-webkit-scrollbar-thumb {
+ background-color: #E68D8D;    /* color of the scroll thumb */
+ border-radius: 20px;       /* roundness of the scroll thumb */
+ border: 3px solid #FCE9E9;  /* creates padding around scroll thumb */
+}
+
+.retangulo2 {
+ width: 816px;
+ height: 560px;
+ background-color: #FFE0E0;
+ border-radius: 40px;
+ position: relative;
+ z-index: 2;
+ margin-left: -200px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ backdrop-filter: blur(2px);
+ scroll-behavior: smooth;
+}
+ /* .retangulobase {
+   width: 528px;
+   height: 180px;
+   background-color: #ffffff;
+   border-radius: 40px;
+   align-items: center;
+   margin-top: 23px;
+   margin-right: 190px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); 
+} */
+ .retangulotitulo {
+   width: 528px;
+   height: 180px;
+   background-color: #E4697A;
+   border-radius: 40px;
+   text-align: center;
+   margin-top: 40px;
+   margin-right: 190px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ .titulo {
+   font-size: 20px;
+   margin-top: 25px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   color: #ffffff;
+   font-family: 'Cooper Black', sans-serif;
+   font-weight: normal;
+ }
+ .retangulo2 .textointro  {
+   font-size: 20px;
+   color: #801212;
+   font-family: "Inter";
+   line-height: 25px;
+   margin: 0px; 
+   margin-top: 50px;
+   margin-left: 0px;
+   padding: 0px;
+ }
+
+ .textointro p:first-child {
+   letter-spacing: 0.2px; 
+   word-spacing: 0.2px;
+   text-align: center;
+   padding-bottom: -30px; 
+   padding-top: 30px;
+ }
+
+ .ftinicio2 {
+   width: 250px;
+   height: 50px;
+   position: absolute; 
+   top: 90px;
+   left: 360px;
+ }
+
+ .ftinicio2 img {
+   width: 250px;
+   height: 180px;
+ }
+
+ .rtitulo {
+   display: flex;
+   flex-direction: column;
+ }
+
+ 
+
+.retangulo3 {
+ width: 440px;
+ height: 560px;
+ background-color: #ffffff;
+ border-radius: 40px;
+ position: relative;
+ z-index: 3;
+ margin-left: -100px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ backdrop-filter: blur(2px);
+ scrollbar-gutter: stable;
+}
+ .textconheca {
+   font-size: 24px;
+   color: #801212;
+   font-family: 'Cooper Black', sans-serif;
+   font-weight: bolder;
+   margin-top: 23px;
+   text-align: center;
+   
+ 
+   }
+ .textjogo {
+   font-size: 16px;
+   color: #801212;
+   font-family: "Inter"; 
+   margin-top: -5px;
+   margin-left: 15px; 
+   margin-right: 20px; 
+   text-align: start;
+   }
+
+.imgossos {
+    max-height: 60%;
+    max-width: 60%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
